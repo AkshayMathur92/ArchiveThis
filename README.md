@@ -1,6 +1,5 @@
-# README #
+# Archive This #
 
-This README would normally document whatever steps are necessary to get your application up and running.
 
 ### What is this repository for? ###
 
@@ -9,20 +8,13 @@ This README would normally document whatever steps are necessary to get your app
 
 ### How do I get set up? ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+* Clone the repository
+* Open .sln file in Visual Studio
+* Build Solution
+* Modify registry entries based on the path you build Release ArchiveThis.exe
+* Run registries , ArchiveThisDestination for destination folder, ArchiveThisContextFolders for Right click on folders, ArchiveThisContextFiles for rightclick on files
+* Test by clicking on folders and files --> they should be copies to C:\\Share or whereeven you have specified in the registry
 
 ### Contribution guidelines ###
 
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+* Contribute Freely
